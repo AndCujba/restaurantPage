@@ -1,0 +1,14 @@
+.footer-container {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+}
+
+.icons-footer a, i {
+    font-size: 1.8rem;
+    margin: auto 5px 0;
+    
+}

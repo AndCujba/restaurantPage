@@ -1,0 +1,152 @@
+.contact-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../photo2.jpg') center center/cover no-repeat;
+    height: 125vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    gap: 25px; 
+    padding-bottom: 0px;
+}
+
+
+.contact-box {
+    margin: 50px 0 30px;
+    background-color: transparent;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    color: #fff;
+    padding: 90px;
+    height: 250px;
+    width: 650px;
+    border: 1px solid var(--primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact-detailes {
+    margin: 10px 0 0;
+    gap: 26px;
+    display: flex;  
+}
+
+
+.icons i {
+    font-size: 1.8rem;
+    margin: 60px 10px 0;
+}
+
+.contact-detailes i{
+    font-size: 1.2rem;
+    display: flex;  
+
+}
+
+.detail {
+    display: flex;  
+    flex: 1;
+    font-size: 1.4rem;
+}
+
+.icons a {
+    text-decoration: none;
+    color:#fff
+}
+
+a:visited {
+    color:#fff
+}
+
+a:hover {
+    color: transparent;
+   -webkit-text-stroke-width: 0.5px;
+   -webkit-text-stroke-color: white; 
+}
+
+.location, .phone-nr, .email-adress {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.location {
+    flex-wrap: column wrap;
+}
+
+.phone-nr {
+    width: 250px;
+}
+
+.location-map {
+    border: 1px solid var(--primary);
+}
+
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:300px;
+    width:800px;
+}
+
+.mapouter {
+    position:relative;
+    text-align:right;
+    height:300px;
+    width:800px;
+}
+
+.location-map-mobile {
+    display: none;
+    border: 1px solid var(--primary);
+}
+
+.gmap_canvas-mobile {
+    overflow:hidden;
+    background:none!important;
+    height:300px;
+    width:350px;
+}
+
+.mapouter-mobile {
+    position:relative;
+    text-align:right;
+    height:300px;
+    width:350px;
+}
+
+@media screen and (max-width: 960px) {
+
+    .contact-detailes {
+      display: block;
+      display: flex;
+      flex-direction: column;
+      gap: 13px;
+    }
+
+    .contact-box {
+        height: 350px;
+        width: 390px;
+        padding: 20px 0;
+        margin-top: 0;
+    }
+
+    .location-map {
+        display: none;
+    }
+
+    .location-map-mobile {
+        display: block;
+        
+    }
+   
+    .icons i {
+        margin: 25px 10px 2px;
+    }
+}
