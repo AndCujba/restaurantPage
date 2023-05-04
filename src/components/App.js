@@ -1,7 +1,7 @@
 
 import About from "./About";
 import Restaurant from "./Restaurant";
-// import Home from "./Home"; //in caz ca vreau sa fie tot siteul pe o pagina
+import Home from "./Home"; //in caz ca vreau sa fie tot siteul pe o pagina
 import Navbar from "./Navbar";
 import SignUp from "./SignUp";
 import Contact from "./Contact";
@@ -18,7 +18,7 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<HeroSection />}/>
+        <Route path="/" element={<Home />}/>
         <Route path="/sign-up" element={<SignUp />}/>
         <Route path="/despre-noi" element={<About/>}/>
         <Route path="/restaurant" element={<Restaurant/>}/>
