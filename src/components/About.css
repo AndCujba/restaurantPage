@@ -1,12 +1,12 @@
-.about-container {
+ .about-container {
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.342);
     color: #fff;
     display: flex;
     flex-direction: column;
     margin: 0 100px;
-}
+} 
 
-.item-about1, .item-about2, .item-about3  {
+ .item-about1, .item-about2, .item-about3  {
     display: flex;
     margin: 75px 100px;
     gap: 50px;
@@ -42,4 +42,4 @@
         width: 100%;
         height: auto;
     }
-}
+} 

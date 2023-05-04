@@ -5,6 +5,15 @@
     color: white;
 }
 
+.container > h1 {
+    color: #fff;
+    font-style: italic;
+    font-size: 90px;
+    padding: 35px 0px 5px;
+    text-align: center;
+  }
+
+
 @media screen and (max-width: 960px) {
     .container {
         height: 200vh;

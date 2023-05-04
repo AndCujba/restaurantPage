@@ -13,10 +13,10 @@ function Restaurant() {
     const categoryData = Data.map((value)=>{
           return value.category
      });
-    const tabsData= ["all", ...new Set(categoryData)];
+    const tabsData= ["Toate", ...new Set(categoryData)];
     
     const filterCategory=(category) =>{
-        if(category=="all"){
+        if(category=="Toate"){
             setData(Data);
             return;
         }
@@ -28,12 +28,13 @@ function Restaurant() {
     return(
      
         <div className="container">
+        <h1>Selecteaza o categroie ca sa vezi cele mai noi postari ale restaurantului nostru!</h1>
       <div className="row">
             <div className="col-sm-1">
             </div>
             <div className="col-sm-10">
             <RestaurantTabs filterCategory={filterCategory} tabsData={tabsData}/>
-            <RestaurantItems data={data} />
+            <RestaurantItems  data={data} />
             </div>
             <div className="col-sm-1">
             </div>

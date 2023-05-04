@@ -10,8 +10,9 @@ function RestaurantItems({data}){
             <div className="col-sm-3 my-3" key={id}>
              <div className="card bg-dark text-center">
                  <img src={image} className="img-fluid" style={{height:"200px"}}/>
-                 <h3>{title}</h3>
+                 <a href="#" class="btn btn-link"><h3>{title}</h3></a>
                  <p>{description}</p>
+                 
             </div>
          </div>
            )
