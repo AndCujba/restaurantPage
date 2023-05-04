@@ -16,11 +16,11 @@ function Contact() {
                         </div>
                         <div className='phone-nr'>
                             <i class="fa-solid fa-phone"></i>
-                            <h2 className='detail'>+373 60 026 599</h2>
+                            <h2 className='detail'>+373 66 666 666</h2>
                         </div>
                         <div className='email-adress'>
                             <i class="fa-solid fa-envelope"></i>
-                            <h2 className='detail'>macaresti@gmail.com</h2>
+                            <h2 className='detail'>restaurant@gmail.com</h2>
                         </div>
                 </div>
                 <div className='icons'>

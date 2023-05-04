@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <h1>AICI SERBĂM FERICIREA</h1>
+      <h1>LOREM IPSUM</h1>
       
       <div className='hero-btns'>
       <Link to='/contact' className='btn-mobile'>
