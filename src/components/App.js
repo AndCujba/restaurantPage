@@ -19,7 +19,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<HeroSection />}/>
-        <Route path="/restaurantPage" element={<HeroSection />}/>  {/* for Github Pages to view homepage route*/}
+        <Route path="/restaurantPage" element={<HeroSection />}/>  for Github Pages to view homepage route
         <Route path="/sign-up" element={<SignUp />}/>
         <Route path="/despre-noi" element={<About/>}/>
         <Route path="/restaurant" element={<Restaurant/>}/>
